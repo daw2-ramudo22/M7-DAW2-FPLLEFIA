@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    background-color: #303030;
+    height: 250px;
+}
+
+.logo{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+h1 {
+    color: white;
+    
+}
+
+.titulo {
+    align-content: center;
+    padding-left: 350px;
+}
+
+
+.row {
+    display: flex;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.foto{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+.piefoto{
+    font-size: 30px;
+}
+
+footer{
+    color: white;
+    background-color:#303030;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.texto{
+    margin-right: 150px;
+    text-align: justify;
+}
