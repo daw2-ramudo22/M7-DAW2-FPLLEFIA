@@ -20,14 +20,13 @@ min.js"></script>
 	<body style="background-color: black;">
 		<div>
 			<?php
-                echo '<div>';
+                echo '<div class="centrar">';
                     $n = rand(0, 100);
                     if($n % 2 == 0){
-                        echo 'ok';
+                        echo "<p class='par'>El número {$n} es par</p>";
                     }else{
-                        echo 'no ok';
+                        echo "<p class='impar'>El número {$n} es impar</p>";
                     }
-                    echo "\n", $n;
                 echo '</div>';
 			?>
 		</div>

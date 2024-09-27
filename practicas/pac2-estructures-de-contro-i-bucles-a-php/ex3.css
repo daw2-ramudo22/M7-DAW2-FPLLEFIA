@@ -1,4 +1,19 @@
 div{
+    display: flex;
     color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 150px;
+}
+
+.par{
+    color: rgb(135, 231, 115);
+    font-weight: bold;
+}
+
+.impar{
+    color: rgb(235, 114, 114);
     font-weight: bold;
 }
