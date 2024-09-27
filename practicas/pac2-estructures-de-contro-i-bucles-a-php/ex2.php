@@ -18,6 +18,9 @@ min.js"></script>
         <link rel="stylesheet" href="ex2.css">
 	</head>
 	<body style="background-color: #dddddd;">
+        <div class='volver'>
+            <a href="index.php">Volver</a>
+        </div>
 		<div class="tabla">
 			<?php
 				for($m1 = 1;$m1 <= 12;$m1 ++){

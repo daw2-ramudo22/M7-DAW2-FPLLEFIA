@@ -18,7 +18,10 @@ min.js"></script>
         <link rel="stylesheet" href="ex3.css">
 	</head>
 	<body style="background-color: black;">
-		<div>
+        <div class='volver'>
+            <a href="index.php">Volver</a>
+        </div>
+		<div class='numero'>
 			<?php
                 echo '<div class="centrar">';
                     $n = rand(0, 100);

@@ -18,6 +18,9 @@ min.js"></script>
         <link rel="stylesheet" href="ex1.css">
 	</head>
 	<body style="background-color: #dddddd;">
+		<div class='volver'>
+            <a href="index.php">Volver</a>
+        </div>
 		<div>
 			<?php
 
