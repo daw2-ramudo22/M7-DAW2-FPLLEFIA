@@ -1,0 +1,26 @@
+.tabla{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.espaciado{
+    margin: 5%;
+    border: 2px solid black;
+    padding: 7px;
+}
+
+p{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.hover:hover{
+    color: red;
+    font-weight: bold;
+    cursor: hand;
+}
+
+.espaciado:hover{
+    border: 2px solid red;
+}
+
