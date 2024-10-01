@@ -36,6 +36,11 @@ min.js"></script>
                     <h3>Ejercicio 3</h3>
                     <a href="ex3.php">Click para ver el ejercicio 3 de la práctica 2</a>
                 </div>
+                <br>
+                <div>
+                    <h3>Ejercicio EXTRA 1</h3>
+                    <a href="extra1.php">Click para ver el ejercicio EXTRA 1 de la práctica 2</a>
+                </div>
             </div>
 		</div>
 	</body> 

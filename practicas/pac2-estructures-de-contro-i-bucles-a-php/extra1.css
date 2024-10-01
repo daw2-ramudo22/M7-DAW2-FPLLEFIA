@@ -1,0 +1,48 @@
+.volver{
+    display: flex;
+    color: rgba(255, 255, 255, 0.884);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    font-size: 50px;
+}
+
+.random{
+    color: rgba(255, 255, 255, 0.884);
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 5%;
+}
+
+.colornumero{
+    color: yellow;
+}
+
+.texto{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.884);
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+.divisores{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.884);
+    justify-content: center;
+    padding-top: 1%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resultado{
+    border: 2px solid rgba(255, 255, 255, 0.884);
+    color: black;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+}
+
