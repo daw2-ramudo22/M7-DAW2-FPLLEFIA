@@ -23,29 +23,17 @@ min.js"></script>
         </div>
 		<div class='numero'>
 			<?php
-                $random = rand(1, 100);
-				$cont = 0;
-				echo "<div class='random'><p>Nombre generat: <p class='colornumero'>{$random}</p></p></div>";
-				echo "<div class='texto'><p>Divisores de {$random}:</p></div>";
-
-				echo "<div class='divisores'>";
-					for($i = 1;$i <= $random;$i ++){
-						if($random % $i == 0){
-
-							echo "<div class='resultado'>{$i}</div>";
-							$cont ++;
-
-						}
-					}
-				echo "</div>";
-				echo "<div class='primer'>";
-					if($cont == 2){
-						echo "<div class='colornumeroprimer'>{$random} és un nombre primer</div>";
-
-					}else{
-						echo "<div class='colornumeronoprimer'>{$random} no és un nombre primer</div>";
-					}
-				echo "</div>";
+                
+                for($i = 0;$i < 10;$i ++){
+                    $temp_random = rand(-10, 40);
+                    if($temp_random >= -10 && $temp_random <= 10){
+                        echo "<p style='color: white';>Temperatura " . ($i + 1) . ": $temp_random frío</p>";
+                    }else if($temp_random >= 10 && $temp_random <= 25){
+                        echo "<p style='color: white';>Temperatura " . ($i + 1) . ": $temp_random suave</p>";  
+                    }else{
+                        echo "<p style='color: white';>Temperatura " . ($i + 1) . ": $temp_random calor</p>";
+                    }
+                }
 			?>
 		</div>
 	</body> 

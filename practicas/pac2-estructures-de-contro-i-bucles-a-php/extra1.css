@@ -13,11 +13,16 @@
     font-weight: bold;
     text-align: center;
     font-size: 60px;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
-.colornumero{
-    color: yellow;
+.colornumeroprimer{
+    color: rgb(72, 233, 72);
+}
+
+.colornumeronoprimer{
+    color: rgb(233, 75, 75);
+
 }
 
 .texto{
@@ -25,7 +30,7 @@
     color: rgba(255, 255, 255, 0.884);
     font-weight: bold;
     font-size: 40px;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .divisores{
@@ -33,7 +38,6 @@
     flex-wrap: wrap;
     color: rgba(255, 255, 255, 0.884);
     justify-content: center;
-    padding-top: 1%;
     font-size: 30px;
     font-weight: bold;
 }
@@ -44,5 +48,13 @@
     background-color: white;
     margin: 1%;
     padding: 1%;
+}
+
+.primer{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
