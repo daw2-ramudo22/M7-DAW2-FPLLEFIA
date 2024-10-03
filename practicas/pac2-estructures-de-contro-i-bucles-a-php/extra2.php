@@ -15,7 +15,7 @@ min.js"></script>
 <html>
 	<head>
 		<title>Visual Studio Code Remote :: PHP</title>
-        <link rel="stylesheet" href="extra1.css">
+        <link rel="stylesheet" href="extra2.css">
 	</head>
 	<body style="background-color: black;">
         <div class='volver'>
@@ -24,16 +24,25 @@ min.js"></script>
 		<div class='numero'>
 			<?php
                 
-                for($i = 0;$i < 10;$i ++){
-                    $temp_random = rand(-10, 40);
-                    if($temp_random >= -10 && $temp_random <= 10){
-                        echo "<p style='color: white';>Temperatura " . ($i + 1) . ": $temp_random frío</p>";
-                    }else if($temp_random >= 10 && $temp_random <= 25){
-                        echo "<p style='color: white';>Temperatura " . ($i + 1) . ": $temp_random suave</p>";  
-                    }else{
-                        echo "<p style='color: white';>Temperatura " . ($i + 1) . ": $temp_random calor</p>";
+                $media = 0;
+                echo "<div class='temperaturas'>";
+                    for($i = 0;$i <= 10;$i ++){
+                        $temp_random = rand(-10, 40);
+                        if($temp_random >= -10 && $temp_random <= 10){
+                            echo "<div class='grados'>Temperatura " . ($i) . ": $temp_random frío</div>";
+                            $media = $temp_random;
+                        }else if($temp_random >= 10 && $temp_random <= 25){
+                            echo "<div class='grados'>Temperatura " . ($i) . ": $temp_random suave</div>";
+                            $media = $temp_random; 
+                        }else{
+                            echo "<div class='grados'>Temperatura " . ($i) . ": $temp_random calor</div>";
+                            $media = $temp_random;
+                        }
                     }
-                }
+                    $resultadomedia = $media / 3;
+                    $resultadoredondeado = round($resultadomedia, 2);
+                    echo "<div class='grados'>La media es {$resultadoredondeado}</div>";
+                echo "</div>";
 			?>
 		</div>
 	</body> 

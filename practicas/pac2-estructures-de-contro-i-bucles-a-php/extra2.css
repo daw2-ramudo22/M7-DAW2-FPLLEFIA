@@ -1,0 +1,22 @@
+.volver{
+    display: flex;
+    color: rgba(255, 255, 255, 0.884);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    font-size: 50px;
+}
+
+.temperaturas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-top: 5%;
+    margin: 3%;
+}
+
+.grados{
+    color: white;
+}
