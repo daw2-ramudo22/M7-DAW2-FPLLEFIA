@@ -116,10 +116,13 @@
 
                         if ($nom_pelicula == $informacion['nom_pelicula']){
                           echo '<img src="'. $informacion['imagen'] . '">';
+                          echo "<br>";
                           echo "Director: " . $informacion['director'] . "\n";
                           echo "<br>";
                           echo "Duracio: " . $informacion['duracio'] . "\n";
+                          echo "<br>";
                           echo "Reparto: " . implode(' , ', $informacion['repartiment']) . "\n";
+                          echo "<br>";
                           echo "Valoracion: " . $informacion['valoracion'] . "\n";
                         }
                         
